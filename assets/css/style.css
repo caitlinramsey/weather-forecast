@@ -1,0 +1,48 @@
+:root {
+    --header-background-color: blueviolet;
+    --header-text-color: white;
+    --search-button-text-color: lightgrey;
+}
+
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#header {
+    color: var(--header-text-color);
+    background-color:var(--header-background-color);
+    text-align: center;
+    padding: 5px;
+    font-size: 20px;
+}
+
+#header h1 {
+    font-weight: bold;
+}
+
+#left-side h2 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#input {
+    border: 1px solid black;
+}
+
+#search {
+    color: var(--search-button-text-color);
+    background-color: var(--header-background-color);
+    width: 30vw;
+    display: block;
+}
+
+#right-side {
+    border: 2px solid black;
+    width: 65vw;
+    align-content: end;
+}
+
+#city-info {
+    text-align: left;
+    padding: 10px;
+}
