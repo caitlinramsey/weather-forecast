@@ -15,6 +15,14 @@
     padding: 0;
 }
 
+.border {
+    border: 1px solid var(--btn-text-color);
+}
+
+.spacebetween {
+    justify-content: space-around;
+}
+
 #header {
     color: var(--header-text-color);
     background-color:var(--header-background-color);
@@ -27,6 +35,12 @@
     font-weight: bold;
 }
 
+.heading {
+    color: var(--header-text-color);
+    font-size: 1rem;
+    font-weight: bold;
+}
+
 #search-bar h1 {
     width: 100vw;
     margin-left: .5rem;
@@ -35,6 +49,7 @@
 
 .container {
     width: 80%;
+    margin: 0 auto;
 }
 
 .row {
@@ -44,10 +59,13 @@
 
 .column1 {
     width: 20%;
+    margin: 0 auto;
 }
 
 .column2 {
     width: 65%;
+    margin: 0 auto;
+    margin-right: auto;
 }
 
 .column3 {
@@ -62,11 +80,14 @@ body {
     height: 20px;
     width: 20vw;
     font-size: 1rem;
+    border-radius: .1rem;
+    border: .1rem solid var(--btn-text-color);
+    padding-left: .5rem;
 }
 
 #search-city {
     font-size: 2rem;
-    width: 100%;
+    width: 20vw;
     padding-left: .5rem;
 }
 
@@ -80,6 +101,7 @@ body {
 
 #search-btn:hover {
     background-color: var(--hover);
+    cursor: pointer;
 }
 
 .btn {
@@ -96,7 +118,8 @@ body {
 }
 
 .btn:hover {
-    background-color: var(--hover);
+    background-color: var(--header-background-color);
+    cursor: pointer;
 }
 
 hr {
@@ -131,20 +154,23 @@ ul {
 
 .favorable {
     background-color: var(--favorable);
-    font-size: 2rem;
+    font-size: 1.5rem;
     border-radius: .5rem;
+    color: var(--btn-text-color);
 }
 
 .moderate {
     background-color: var(--moderate);
-    font-size: 2rem;
+    font-size: 1.5rem;
     border-radius: .5rem;
+    color: var(--btn-text-color);
 }
 
 .severe {
     background-color: var(--severe);
-    font-size: 2rem;
+    font-size: 1.5rem;
     border-radius: .5rem;
+    color: var(--btn-text-color);
 }
 
 span {
@@ -157,27 +183,29 @@ h2 {
     font-weight: bold;
     display: flex;
     align-items: center;
+    margin-left: 1%;
 }
 
 h4 {
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 1rem;
     color: var(--header-text-color);
 }
 
 .card-body {
     background-color: var(--header-background-color);
-    height: 20rem;
+    height: 15rem;
     padding-left: 4%;
     padding-top: 4%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-around;
+    width: 20vw;
 }
 
 p {
-    font-size: 2rem;
+    font-size: 1rem;
     color: var(--header-text-color);
 }
 

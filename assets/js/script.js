@@ -87,6 +87,7 @@ function getForecast(city) {
                                             src: currentCityIcon,
                                             alt: 'Forecast Weather Icon'
                                         })
+                                        
                                     var forecastList = $('<ul>')
 
                                     var forecastDetails = ['Temperature: ' + weatherData.current.temp + ' °F', 'Wind: ' + weatherData.current.wind_speed + ' MPH', 'Humidity: ' + weatherData.current.humidity + '%', 'UV Index: ' + weatherData.current.uvi]
