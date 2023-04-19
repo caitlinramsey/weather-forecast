@@ -46,7 +46,7 @@
 }
 
 #search-bar h1 {
-    width: 30vw;
+    width: 23vw;
     margin-left: .5rem;
     margin-top: 1rem;
 }
@@ -57,7 +57,11 @@
 
 .row {
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
+}
+
+.col {
+    width: 80vw;
 }
 
 body {
@@ -123,8 +127,9 @@ hr {
 } */
 
 #current-weather {
-    height: 50%;
     border: .1rem solid var(--btn-text-color); 
+    width: 80vw;
+    margin-top: 1rem;
 }
 
 ul {
@@ -172,7 +177,7 @@ h2 {
     font-weight: bold;
     display: flex;
     align-items: center;
-    margin-left: 1%;
+    margin-left: .5rem;
 }
 
 h4 {
@@ -183,14 +188,14 @@ h4 {
 
 .card-body {
     background-color: var(--header-background-color);
-    height: 15rem;
+    height: 13rem;
     padding-left: 4%;
     padding-top: 4%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-around;
-    width: 20vw;
+    width: 15vw;
 }
 
 p {
