@@ -14,27 +14,29 @@
     </header>
 
     <main id = 'container' class = 'container'>
-        <div class = 'row'>
-          <div class = 'column1'>
-            <div id = 'search-bar'>
-              <h1>Search for a City:</h1>
+      <div class = 'row'>
+        <div class = 'column1'>
+          <div id = 'search-bar'>
+            <h1>Search for a City:</h1>
               <form id = 'search-city'>
                 <input name = 'city' type = 'text' placeholder= 'Raleigh' id = 'city' autofocus = 'true'
                   class = 'city-input' />
                 <button type = 'submit' id = 'search-btn' class = 'btn'>Search</button>
               </form>
-              <hr>
-              </hr>
-              <div id = 'search-history'></div>
-            </div>
+                <hr>
+                </hr>
+                  <div id = 'search-history'></div>
+                <div class = 'current-weather'>
           </div>
-        <div class = 'current-weather'></div>
-        <div class = 'column2'>
-        <div class = 'col'>
-          <div id = 'five-day-forecast' class = 'row spacebetween'></div>
         </div>
       </div>
+
+    <div class = 'column2'>
+      <div class = 'col'>
+        <div id = 'five-day-forecast' class = 'row spacebetween'></div>
       </div>
+    </div>
+
     </main>
 
     <script src = 'https://code.jquery.com/jquery-3.6.0.min.js'></script>

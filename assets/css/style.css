@@ -19,10 +19,6 @@
     border: 1px solid var(--btn-text-color);
 }
 
-.spacebetween {
-    justify-content: space-around;
-}
-
 #header {
     color: var(--header-text-color);
     background-color:var(--header-background-color);
@@ -61,7 +57,9 @@
 }
 
 .col {
-    width: 80vw;
+    /* width: 70vw; */
+    display: flex;
+    flex-wrap: wrap;
 }
 
 body {
@@ -128,7 +126,7 @@ hr {
 
 #current-weather {
     border: .1rem solid var(--btn-text-color); 
-    width: 80vw;
+    /* width: 80vw; */
     margin-top: 1rem;
 }
 
@@ -203,9 +201,14 @@ p {
     color: var(--header-text-color);
 }
 
-#five-day-forecast-header {
+.column2 {
     margin-top: 10px;
     margin-bottom: 10px;
+    flex-direction: column;
+}
+
+.spacebetween {
+    justify-content: space-around;
 }
 
 @media (max-width: 992px) {}
