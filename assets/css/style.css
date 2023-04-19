@@ -41,15 +41,18 @@
     font-weight: bold;
 }
 
+#search-bar {
+    width: 30vw;
+}
+
 #search-bar h1 {
-    width: 100vw;
+    width: 30vw;
     margin-left: .5rem;
     margin-top: 1rem;
 }
 
 .container {
-    width: 80%;
-    margin: 0 auto;
+    width: 70vw;
 }
 
 .row {
@@ -57,23 +60,9 @@
     flex-wrap: wrap;
 }
 
-.column1 {
-    width: 20%;
-    margin: 0 auto;
-}
-
-.column2 {
-    width: 65%;
-    margin: 0 auto;
-    margin-right: auto;
-}
-
-.column3 {
-    width: 20%;
-}
-
 body {
     min-height: 100vh;
+    width: 100vw;
 }
 
 .city-input {
@@ -135,7 +124,7 @@ hr {
 
 #current-weather {
     height: 50%;
-    border: .1rem solid var(--btn-text-color);   
+    border: .1rem solid var(--btn-text-color); 
 }
 
 ul {

@@ -72,7 +72,7 @@ function getForecast(city) {
                         .then(function (forecastResponse) {
                             if (forecastResponse.ok) {
                                 forecastResponse.json().then(function (weatherData) {
-                                    var currentDayForecast = $('div')
+                                    var currentDayForecast = $('<div>')
                                         .attr({
                                             id: 'current-weather'
                                         })
