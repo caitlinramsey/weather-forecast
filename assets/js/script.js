@@ -219,7 +219,7 @@ function submitBtn(event) {
 }
 
 $('#search-btn').on('click', function () {
-    $('current-weather').remove();
-    $('five-day-forecast').empty();
-    $('five-day-forecast-header').remove();
+    $('#current-weather').remove();
+    $('#five-day-forecast').empty();
+    $('#five-day-forecast-header').remove();
 })
