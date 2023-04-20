@@ -1,5 +1,6 @@
 :root {
     --header-background-color: blueviolet;
+    --other-background-color: violet;
     --header-text-color: white;
     --search-button-text-color: lightgrey;
     --btn-text-color: black;
@@ -21,7 +22,7 @@
 
 #header {
     color: var(--header-text-color);
-    background-color:var(--header-background-color);
+    background-image: linear-gradient(blueviolet, violet);
     text-align: center;
     padding: 5px;
     font-size: 20px;
@@ -136,31 +137,6 @@ li {
     padding-bottom: 1rem;
 }
 
-#forecast-icon {
-    filter: drop-shadow(0 0 0 .75rem var(--btn-text-color));
-}
-
-.favorable {
-    background-color: var(--favorable);
-    font-size: 1.5rem;
-    border-radius: .5rem;
-    color: var(--btn-text-color);
-}
-
-.moderate {
-    background-color: var(--moderate);
-    font-size: 1.5rem;
-    border-radius: .5rem;
-    color: var(--btn-text-color);
-}
-
-.severe {
-    background-color: var(--severe);
-    font-size: 1.5rem;
-    border-radius: .5rem;
-    color: var(--btn-text-color);
-}
-
 span {
     padding: 0 1.5rem;
     color: var(--header-text-color);
@@ -222,13 +198,11 @@ p {
 
     #five-day-forecast {
         display: block;
-        background-color: red;
         text-align: center;
     }
 
     .column1 {
         display: block;
-        background-color: aqua;
     }
 }
 

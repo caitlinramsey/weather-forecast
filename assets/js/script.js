@@ -90,35 +90,14 @@ function getForecast(city) {
                                         
                                     var forecastList = $('<ul>')
 
-                                    var forecastDetails = ['Temperature: ' + weatherData.current.temp + ' °F', 'Wind: ' + weatherData.current.wind_speed + ' MPH', 'Humidity: ' + weatherData.current.humidity + '%', 'UV Index: ' + weatherData.current.uvi]
+                                    var forecastDetails = ['Temperature: ' + weatherData.current.temp + ' °F', 'Wind: ' + weatherData.current.wind_speed + ' MPH', 'Humidity: ' + weatherData.current.humidity + '%']
                                         
                                     for (var i = 0; i < forecastDetails.length; i++) {
-                                        if (forecastDetails[i] === 'UV Index: ' + weatherData.current.uvi) {
-                                            var forecastListItem = $('<li>')
-                                                .text('UV Index: ')
-
-                                            forecastList.append(forecastListItem);
-
-                                            var uviSpan = $('<span>')
-                                                .text(weatherData.current.uvi);
-
-                                            if (uviSpan.text() <= 2) {
-                                                uviSpan.addClass('favorable');
-                                            } else if (uviSpan.text() > 2 && uviSpan.text() <= 7) {
-                                                uviSpan.addClass('moderate');
-                                            } else {
-                                                uviSpan.addClass('severe');
-                                            }
-
-                                            forecastListItem.append(uviSpan);
-
-                                        } else {
                                             var forecastListItem = $('<li>')
                                                 .text(forecastDetails[i])
                                             
                                             forecastList.append(forecastListItem);
                                         }
-                                    }
 
                                     $('#five-day-forecast').before(currentDayForecast);
                                     currentDayForecast.append(forecastHeading);
@@ -160,7 +139,7 @@ function getForecast(city) {
                                                 alt: 'Forecast Icon'
                                             });
 
-                                        var forecastDetails = ['Temperature: ' + weatherData.current.temp + ' °F', 'Wind: ' + weatherData.current.wind_speed + ' MPH', 'Humitidy: ' + weatherData.current.humidity + '%', 'UV Index: ' + weatherData.current.uvi]
+                                        var forecastDetails = ['Temperature: ' + weatherData.current.temp + ' °F', 'Wind: ' + weatherData.current.wind_speed + ' MPH', 'Humidity: ' + weatherData.current.humidity + '%']
 
                                         var temperatureEl = $('<p>')
                                             .addClass('card-text')
