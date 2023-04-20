@@ -68,11 +68,12 @@ body {
     border-radius: .1rem;
     border: .1rem solid var(--btn-text-color);
     padding-left: .5rem;
+    box-sizing: border-box;
 }
 
 #search-city {
     font-size: 2rem;
-    width: 20vw;
+    width: 100%;
     padding-left: .5rem;
 }
 
@@ -80,7 +81,6 @@ body {
     margin-bottom: 1rem;
     background-color: var(--header-background-color);
     color: var(--header-text-color);
-    width: 20vw;
     margin-left: -.1rem;
 }
 
@@ -214,26 +214,25 @@ p {
     justify-content: space-around;
 }
 
-@media (max-width: 992px) {}
+/* @media screen and (max-width: 1024px) {
+    
+} */
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
+
+    #five-day-forecast {
+        display: block;
+        background-color: red;
+        text-align: center;
+    }
+
     .column1 {
-        width: 100%;
-        display: inline;
-    }
-
-    .column2 {
-        width: 100%;
-        display: inline;
-    }
-
-    .column3 {
-        width: 100%;
-        display: inline;
+        display: block;
+        background-color: aqua;
     }
 }
 
-@media (max-width: 630px) {
+@media screen and (max-width: 630px) {
     #current-forecast {
         width: 100%;
     }
