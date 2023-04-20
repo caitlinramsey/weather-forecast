@@ -123,7 +123,7 @@ function getForecast(city) {
                                     $('#five-day-forecast').before(currentDayForecast);
                                     currentDayForecast.append(forecastHeading);
                                     forecastHeading.append(iconImage);
-                                    currentDayForecast.append(forecastListItem);
+                                    currentDayForecast.append(forecastList);
 
                                     var fiveDayForecastHeading = $('<h2>')
                                         .text('5-Day Forecast:')
