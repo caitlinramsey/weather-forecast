@@ -91,7 +91,7 @@ function getForecast(city) {
                                     var forecastList = $('<ul>')
 
                                     var forecastDetails = ['Temperature: ' + weatherData.current.temp + ' °F', 'Wind: ' + weatherData.current.wind_speed + ' MPH', 'Humidity: ' + weatherData.current.humidity + '%', 'UV Index: ' + weatherData.current.uvi]
-                                        console.log(forecastDetails)
+                                        
                                     for (var i = 0; i < forecastDetails.length; i++) {
                                         if (forecastDetails[i] === 'UV Index: ' + weatherData.current.uvi) {
                                             var forecastListItem = $('<li>')
