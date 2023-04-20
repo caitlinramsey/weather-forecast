@@ -219,19 +219,22 @@ p {
 @media (max-width: 768px) {
     .column1 {
         width: 100%;
+        display: inline;
     }
 
     .column2 {
         width: 100%;
+        display: inline;
     }
 
     .column3 {
         width: 100%;
+        display: inline;
     }
 }
 
 @media (max-width: 630px) {
     #current-forecast {
-        width: 300px;
+        width: 100%;
     }
 }
