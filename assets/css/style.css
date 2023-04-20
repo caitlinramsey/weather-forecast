@@ -57,8 +57,7 @@
 }
 
 .col {
-    /* width: 70vw; */
-    display: flex;
+    /* display: flex; */
     flex-wrap: wrap;
 }
 
@@ -119,14 +118,8 @@ hr {
     width: 20vw;
 }
 
-/* #current-forecast {
-    height: 50%;
-    border: .1rem solid var(--btn-text-color);
-} */
-
 #current-weather {
-    border: .1rem solid var(--btn-text-color); 
-    /* width: 80vw; */
+    border: .1rem solid var(--btn-text-color);
     margin-top: 1rem;
 }
 
@@ -199,6 +192,10 @@ h4 {
 p {
     font-size: 1rem;
     color: var(--header-text-color);
+}
+
+#five-day-forecast {
+    justify-content: space-around;
 }
 
 .column2 {
