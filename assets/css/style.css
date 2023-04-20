@@ -42,22 +42,17 @@
 }
 
 #search-bar h1 {
-    width: 23vw;
+    /* width: 23vw; */
     margin-left: .5rem;
     margin-top: 1rem;
 }
 
 .container {
-    width: 70vw;
+    display: flex;
 }
 
 .row {
     display: flex;
-    /* flex-wrap: wrap; */
-}
-
-.col {
-    /* display: flex; */
     flex-wrap: wrap;
 }
 
@@ -176,6 +171,7 @@ h2 {
     display: flex;
     align-items: center;
     margin-left: .5rem;
+    padding-bottom: 1rem;
 }
 
 h4 {
@@ -187,13 +183,13 @@ h4 {
 .card-body {
     background-color: var(--header-background-color);
     height: 13rem;
-    padding-left: 4%;
-    padding-top: 4%;
+    padding-left: .5rem;
+    padding-top: .5rem;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-around;
-    width: 15vw;
+    width: 150px;
 }
 
 p {
@@ -206,6 +202,10 @@ p {
     margin-bottom: 10px;
     display: flex;
     flex-direction: column;
+}
+
+#five-day-forecast {
+    justify-content: space-around;
 }
 
 .spacebetween {
