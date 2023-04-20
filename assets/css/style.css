@@ -116,6 +116,7 @@ hr {
 #current-weather {
     border: .1rem solid var(--btn-text-color);
     margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 ul {
@@ -190,6 +191,7 @@ h4 {
     align-items: flex-start;
     justify-content: space-around;
     width: 150px;
+    margin-right: 1rem;
 }
 
 p {
