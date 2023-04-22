@@ -196,6 +196,23 @@ p {
         text-align: center;
         align-content: center;
     }
+    
+    .column1 {
+        width: 10rem;
+    }
+
+    #five-day-forecast {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #five-day-forecast-header {
+        align-items: center;
+    }
+
+    .column2 {
+        flex-direction: column;
+    }
 }
 
 @media screen and (max-width: 768px) {
