@@ -175,7 +175,36 @@ h4 {
     }
 
     h1 {
-        width: 50vw;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    #header {
+        display: flex;
+        justify-content: center;
+    }
+
+    #search-bar {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    #search-city {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    #search-history {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
     }
 
     .city-input {
@@ -188,6 +217,27 @@ h4 {
 
     hr {
         width: 50vw;
+    }
+
+    .current-weather {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    #five-day-forecast-header {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    #five-day-forecast {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
     }
 }
 
@@ -195,11 +245,43 @@ h4 {
 
     main {
         display: block;
+    }
+
+    body {
         align-items: center;
     }
 
     h1 {
-        width: 50vw;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    #header {
+        display: flex;
+        justify-content: center;
+    }
+
+    #search-bar {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    #search-city {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    #search-history {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
     }
 
     .city-input {
@@ -212,6 +294,27 @@ h4 {
 
     hr {
         width: 50vw;
+    }
+
+    .current-weather {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    #five-day-forecast-header {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    #five-day-forecast {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
     }
 }
 
@@ -221,20 +324,74 @@ h4 {
         display: block;
     }
 
+    body {
+        align-items: center;
+    }
+
     h1 {
-        width: 50vw;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    #header {
+        display: flex;
+        justify-content: center;
+    }
+
+    #search-bar {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    #search-city {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    #search-history {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
     }
 
     .city-input {
-        width: 50vw;
+        width: 70vw;
     }
 
     .btn {
-        width: 50vw;
+        width: 70vw;
     }
 
     hr {
-        width: 50vw;
+        width: 70vw;
+    }
+
+    .current-weather {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    #five-day-forecast-header {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    #five-day-forecast {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
     }
 }
 
@@ -244,20 +401,74 @@ h4 {
         display: block;
     }
 
+    body {
+        align-items: center;
+    }
+
     h1 {
-        width: 50vw;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    #header {
+        display: flex;
+        justify-content: center;
+    }
+
+    #search-bar {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    #search-city {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    #search-history {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
     }
 
     .city-input {
-        width: 50vw;
+        width: 70vw;
     }
 
     .btn {
-        width: 50vw;
+        width: 70vw;
     }
 
     hr {
-        width: 50vw;
+        width: 70vw;
+    }
+
+    .current-weather {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    #five-day-forecast-header {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    #five-day-forecast {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
     }
 }
 
@@ -267,20 +478,74 @@ h4 {
         display: block;
     }
 
+    body {
+        align-items: center;
+    }
+
     h1 {
-        width: 50vw;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    #header {
+        display: flex;
+        justify-content: center;
+    }
+
+    #search-bar {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    #search-city {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    #search-history {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
     }
 
     .city-input {
-        width: 50vw;
+        width: 70vw;
     }
 
     .btn {
-        width: 50vw;
+        width: 70vw;
     }
 
     hr {
-        width: 50vw;
+        width: 70vw;
+    }
+
+    .current-weather {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    #five-day-forecast-header {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    #five-day-forecast {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
     }
 }
 
@@ -290,19 +555,73 @@ h4 {
         display: block;
     }
 
+    body {
+        align-items: center;
+    }
+
     h1 {
-        width: 50vw;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    #header {
+        display: flex;
+        justify-content: center;
+    }
+
+    #search-bar {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    #search-city {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    #search-history {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
     }
 
     .city-input {
-        width: 50vw;
+        width: 70vw;
     }
 
     .btn {
-        width: 50vw;
+        width: 70vw;
     }
 
     hr {
-        width: 50vw;
+        width: 70vw;
+    }
+
+    .current-weather {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    #five-day-forecast-header {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    #five-day-forecast {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
     }
 }
