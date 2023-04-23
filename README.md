@@ -6,4 +6,6 @@ This is a weather forecast dashboard that shows the current and future weather o
 
 Below is an image of my website.
 
+![Weather Dashboard](https://user-images.githubusercontent.com/60635509/233815910-3f37556f-742b-4147-bd51-3f0fae9db274.png)
+
 This is a link to my deployed website: 
