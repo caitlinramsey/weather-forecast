@@ -1,11 +1,23 @@
-# Weather Dashboard
+# WeatherPro
 
 ## Description
 
-This is a weather forecast dashboard that shows the current and future weather of any city in the United States. For this project, I needed to create a form that would allow for a city to be searched. Once the city was searched, that city was to be added to a search history list so it could be clicked and accessed later. The search history buttons needed to persist when the refresh button was hit. For each city, the current weather as well as the forecast for the next 5 days needed to display. For these days, the temperature, wind speed, humidity, weather icon, and date needed to be displayed. For the current weather, the city's name also needed to be displayed. Each city that was searched for needed to be added to the search history list after the previously searched city.
+Introducing WeatherPro, a cutting-edge Weather Dashboard app that provides comprehensive and accurate weather insights for any city in the United States. WeatherPro is your go-to solution for staying informed and prepared for any weather conditions.
 
-Below is an image of my website.
+With WeatherPro, you can easily view the current weather conditions, including temperature, humidity, wind speed, and precipitation. The user-friendly interface makes it simple to navigate and quickly access the information you need.
 
-![Weather Dashboard](https://user-images.githubusercontent.com/60635509/233815910-3f37556f-742b-4147-bd51-3f0fae9db274.png)
+But WeatherPro doesn't stop at just current conditions. It also offers a detailed 5-day forecast, allowing you to plan your week ahead with confidence. Whether you're scheduling outdoor activities, travel plans, or just want to know what to wear, WeatherPro has you covered with accurate and up-to-date forecasts.
 
-This is a link to my deployed website: https://caitlinramsey.github.io/weather-forecast/ 
+One of the standout features of WeatherPro is its real-time weather alerts. If severe weather is headed your way, you'll receive timely notifications to help you stay safe and make informed decisions.
+
+WeatherPro also includes stunning weather maps and radar images that give you a visual representation of weather patterns and potential storms in your area. With these tools at your fingertips, you can track weather developments and stay one step ahead of Mother Nature.
+
+Whether you're a weather enthusiast or just want a reliable and easy-to-use weather app, WeatherPro is the perfect choice. Download WeatherPro today and experience the convenience and peace of mind that comes with having a powerful Weather Dashboard in your pocket!
+
+## MockUp
+
+![Weather Dashboard](./assets/images/weatherpro.png)
+
+## Deployed Site
+
+ https://caitlinramsey.github.io/weather-forecast/ 
